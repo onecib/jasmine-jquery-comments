@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>JQ Comments</title>
+     
+     
+    <!-- include source files here... -->
+    <script src="../jquery.js"></script>
+    <script src="../JQComments.js"></script>
+    <link type="text/css" rel="stylesheet" href="../css/jquery.comments.css">
+    
+    
+</head>
+ 
+<body>
+    <div id="comments"></div>
+    <script>
+    $( "#comments" ).jQComments({url: 'http://localhost:3000/comments'});    
+    </script>
+</body>
+</html>
